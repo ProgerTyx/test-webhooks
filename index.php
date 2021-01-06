@@ -6,7 +6,7 @@ $secret = "";
 
 // Path to your respostory on your server.
 // e.g. "/var/www/respostory"
-$path = "/";
+$path = "/webhooks";
 
 // Headers deliveried from GitHub
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
