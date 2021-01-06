@@ -2,10 +2,12 @@
 
 // GitHub Webhook Secret.
 // Keep it the same with the 'Secret' field on your Webhooks / Manage webhook page of your respostory.
+// Если вдруг захочешь использовать секретный ключ
 $secret = "";
 
 // Path to your respostory on your server.
 // e.g. "/var/www/respostory"
+// Указываем папку где лежит репозиторий git
 $path = "/webhooks";
 
 // Headers deliveried from GitHub
